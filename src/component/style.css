@@ -1,0 +1,188 @@
+.currclass{
+  background-color: white;
+    border-radius: 10px;
+    color: black;
+    margin: 2px 0;
+    width: 100px;
+    text-align: center;
+
+
+}
+.classtime{
+  font-size: 12px;
+}
+.title{
+    color: white;
+    font-size: 65px;
+    font-family:'monospace';
+    text-align: center;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: black;
+}
+  .groups {
+    display: none;
+  }
+
+  .footer {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  ul {
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #heading {
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  p {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    margin: 2px 0;
+    width: 100px;
+  }
+
+  .roomno {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+  }
+
+  /* .roomno>div {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+  } */
+
+  .nav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 65px;
+
+  }
+
+  .period {
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 0.5%;
+    background-color: white;
+    flex-direction: column;
+
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #newfirst,
+  #newsecond,
+  #newthird,
+  #newfourth,
+  #newfifth,
+  #newsixth,
+  #newseventh,
+  #neweigth,
+  #newnineth {
+    display: none;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: yellow;
+  }
+
+  #todayday {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    color: white;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .box {
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #timetable1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .choose {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .bunkhublogo{
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  .bunk{
+    color: white;
+    font-family: sans-serif;
+  font-size: 60px;
+  margin-right: 10px;
+  }
+  .hub{
+    margin-left: 10px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: orange;
+    color: black;
+    font-family: sans-serif;
+  font-size: 60px;
+  }
+
+  @media (max-width: 600px) {
+.choose{
+flex-direction: column;
+}
+
+}
